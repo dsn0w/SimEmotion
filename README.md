@@ -4,7 +4,8 @@ The main codes are shown in the main.py file.
 
 The requirements are the same as for CLIP (https://github.com/openai/CLIP).
 
-The datasets and splits are referenced from the WSCNet(https://github.com/sherleens/WSCNet). Thanks again to JufengYang's and his team.
+The datasets and splits are referenced from the WSCNet(https://github.com/sherleens/WSCNet). 
+Special thanks to Prof. Jufeng Yang and his team.
 
 More information to be updated.
 
