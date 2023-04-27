@@ -89,10 +89,8 @@ TwitterII
 - test
   - ...
 
-
-More information to be updated.
-
 ------------
+More information to be updated.
 
 ## References
 ```
