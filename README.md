@@ -14,81 +14,79 @@ Special thanks to Prof. Jufeng Yang and his team.
 
 The results of the detection part of the model have been saved in a separate cate info folder for ease of processing. (BaiduNetDisk: password:[VipL](https://pan.baidu.com/s/1JSpkmoJQGviBKIPDwOQlIg))
 
-### The file directory structure：
-main.py
-
-dataset
-- cate info
-  - EmotionROI
-    - anger1.txt
-    - anger2.txt
-      - ...
-  - FI
+### The data file directory structure：
+cate info
+- EmotionROI
+  - anger1.txt
+  - anger2.txt
     - ...
-  - TwitterI
-    - ...
-  - TwitterII
-	  -...
-- Emotion6
-  - train
-    - anger
-      - anger1.jpg
-      - anger2.jpg
-      - ...
-    - disgust
-    - ...
-  - test
-    - ...
-
 - FI
-  - train
-    - amusement
-    - anger
-    - ...
-  - val
-    - ...
-  - test
-    - ...
-
-- Emotion6_2
-  - train
-    - negative
-      - ...
-    - positive
-      - ...
-  - test
-    - ...
-
-- FI_2
-  - train
-    - negative
-      - ...
-    - positive
-      - ...
-  - val
-    - ...
-  - test
-    - ...
-
+  - ...
 - TwitterI
-  - total
-    - 1
-      - train
-        - negative
-          - ...
-        - positive
-          - ...
-      - test
-          - ...
-
+  - ...
 - TwitterII
-  - train
-    - negative
-      - ...
-    - positive
-      - ...
-  - test
+ -...
+
+Emotion6
+- train
+  - anger
+    - anger1.jpg
+    - anger2.jpg
     - ...
+  - disgust
+  - ...
+- test
+  - ...
+
+FI
+- train
+  - amusement
+  - anger
+  - ...
+- val
+  - ...
+- test
+  - ...
+
+Emotion6_2
+- train
+  - negative
+    - ...
+  - positive
+    - ...
+- test
+  - ...
+
+FI_2
+- train
+  - negative
+    - ...
+  - positive
+    - ...
+- val
+  - ...
+- test
+  - ...
+
+TwitterI
+- total
+  - 1
+    - train
+      - negative
+        - ...
+      - positive
+        - ...
+    - test
+        - ...
+
+TwitterII
+- train
+  - negative
+    - ...
+  - positive
+    - ...
+- test
+  - ...
 
 
 More information to be updated.
