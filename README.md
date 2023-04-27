@@ -1,15 +1,20 @@
 # SimEmotion
 
-The main codes are shown in the main.py file.
+The main codes are shown in the main.py file. You can change different models and datasets.
+
+### Requirements
+Linux server with GPU. (Recommended：NVIDIA RTX 3090 and above.)
 
 The requirements are the same as for CLIP (https://github.com/openai/CLIP).
+
+### Data
 
 The datasets and splits are referenced from the WSCNet(https://github.com/sherleens/WSCNet). 
 Special thanks to Prof. Jufeng Yang and his team.
 
 The results of the detection part of the model have been saved in a separate cate info folder for ease of processing. (BaiduNetDisk: password:[VipL](https://pan.baidu.com/s/1JSpkmoJQGviBKIPDwOQlIg))
 
-## The file directory structure：
+### The file directory structure：
 main.py
 
 dataset
@@ -18,71 +23,72 @@ dataset
     - anger1.txt
     - anger2.txt
       - ...
-----FI
-------...
-----TwitterI
-------...
-----TwitterII
-------...
+  - FI
+    - ...
+  - TwitterI
+    - ...
+  - TwitterII
+	  -...
+- EmotionROI
+  - train
+    - anger
+		  - anger1.jpg
+			- anger2.jpg
+			- ...
+    - disgust
+    - ...
+  - test
+    - ...
 
---EmotionROI
-----train
-------anger
-------disgust
-------...
-----test
-------...
+- FI
+  - train
+    - amusement
+    - anger
+    - ...
+  - val
+    - ...
+  - test
+    - ...
 
---FI
-----train
-------amusement
-------anger
-------...
-----val
-------...
-----test
-------...
+- Emotion6
+  - train
+    - negative
+			- ...
+    - positive
+			- ...
+  - test
+    - ...
 
---Emotion6
-----train
-------negative
---------...
-------positive
---------...
-----test
-------...
+- FI_2
+  - train
+    - negative
+			- ...
+    - positive
+			- ...
+  - val
+    - ...
+  - test
+    - ...
 
---FI_2
-----train
-------negative
---------...
-------positive
---------...
-----val
-------...
-----test
-------...
+- TwitterI
+  - total
+    - 1
+			- train
+			  - negative
+    			- ...
+  			- positive
+		  	  - ...
+			- test
+			  - ...
 
---TwitterI
-----total
-------1
---------train
-----------negative
-------------...
-----------positive
-------------...
---------test
-----------...
-------...
-
---TwitterII
-----train
-------negative
---------...
-------positive
---------...
-----test
-------...
+- TwitterII
+  - train
+    - negative
+			- ...
+    - positive
+		  - ...
+  - test
+    - ...
 
 
 More information to be updated.
