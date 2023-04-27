@@ -9,6 +9,8 @@ Special thanks to Prof. Jufeng Yang and his team.
 
 More information to be updated.
 
+------------
+
 References
 
 [1] Deng S, Shi G, Wu L, et al. Simemotion: A simple knowledgeable prompt tuning method for image emotion classification[C]//Database Systems for Advanced Applications: 27th International Conference, DASFAA 2022, Virtual Event, April 11–14, 2022, Proceedings, Part III. Cham: Springer International Publishing, 2022: 222-229.
