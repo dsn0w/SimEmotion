@@ -317,7 +317,6 @@ if __name__ == '__main__':
     parser.add_argument('--warmepoch', type=int, default=3)
     args = parser.parse_args()
     classtype, data_dir, catedir, catedirnlp = datasetInit(args.datasetname)
-    args.modelname = args.modelname.replace('/', '-')
     set_seed(args.seed)
     log = []
 
@@ -334,7 +333,8 @@ if __name__ == '__main__':
         fcdim = 512
     fc = FCN(dim=fcdim).to(device)
     logit = model.logit_scale
-
+    args.modelname = args.modelname.replace('/', '-')
+    
     # load the dataset
     trainset = Loaddata('train')
     warmpos = 0.1 * len(trainset) / args.batch_size
