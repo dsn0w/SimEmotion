@@ -317,6 +317,7 @@ if __name__ == '__main__':
     parser.add_argument('--warmepoch', type=int, default=3)
     args = parser.parse_args()
     classtype, data_dir, catedir, catedirnlp = datasetInit(args.datasetname)
+    args.modelname = args.modelname.replace('/', '-')
     set_seed(args.seed)
     log = []
 
